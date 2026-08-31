@@ -1,0 +1,11 @@
+{
+  "name": "quiz-eclair-rn-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "mobile": "npm --prefix mobile start",
+    "install:all": "npm --prefix server install && npm --prefix mobile install"
+  }
+}
